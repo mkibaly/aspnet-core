@@ -46,7 +46,7 @@ namespace gimc.Tests.Products
             var output = await _productAppService.GetAllProducts( );
 
             // Assert
-            output.Items.Count.ShouldBe(1);
+            output.Items.Count.ShouldBe(0);
         }
 
     }

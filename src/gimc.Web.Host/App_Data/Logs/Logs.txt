@@ -6406,3 +6406,319 @@ INFO  2020-01-09 10:17:35,647 [17   ] .Mvc.Infrastructure.ObjectResultExecutor -
 INFO  2020-01-09 10:17:35,648 [17   ] c.Infrastructure.ControllerActionInvoker - Executed action gimc.Products.ProductAppService.GetProduct (gimc.Application) in 39.3072ms
 INFO  2020-01-09 10:17:35,649 [17   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'gimc.Products.ProductAppService.GetProduct (gimc.Application)'
 INFO  2020-01-09 10:17:35,649 [17   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 112.9638ms 200 application/json; charset=utf-8
+DEBUG 2020-01-09 11:27:35,134 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2020-01-09 11:27:35,208 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2020-01-09 11:27:35,236 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: gimc.Web.Host.Startup.gimcWebHostModule, gimc.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-09 11:27:35,238 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: gimc.gimcWebCoreModule, gimc.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-09 11:27:35,238 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: gimc.gimcApplicationModule, gimc.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-09 11:27:35,239 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: gimc.gimcCoreModule, gimc.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-09 11:27:35,239 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=5.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-09 11:27:35,240 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=5.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-09 11:27:35,240 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-09 11:27:35,241 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-09 11:27:35,241 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: gimc.EntityFrameworkCore.gimcEntityFrameworkModule, gimc.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-09 11:27:35,241 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=5.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-09 11:27:35,241 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-09 11:27:35,241 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-09 11:27:35,242 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-09 11:27:35,242 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-09 11:27:35,243 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=5.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-09 11:27:35,248 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2020-01-09 11:27:35,313 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-01-09 11:27:35,313 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-01-09 11:27:35,313 [1    ] o.Configuration.LanguageManagementConfig - Converted gimc (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-01-09 11:27:35,313 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-01-09 11:27:35,637 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: gimc.EntityFrameworkCore.gimcDbContext, gimc.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-09 11:27:36,090 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2020-01-09 11:27:36,130 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2020-01-09 11:27:36,140 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2020-01-09 11:27:36,146 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: gimc
+DEBUG 2020-01-09 11:27:36,150 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2020-01-09 11:27:36,202 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2020-01-09 11:27:36,232 [1    ] , Culture=neutral, PublicKeyToken=null]] - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker`2[[gimc.MultiTenancy.Tenant, gimc.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[gimc.Authorization.Users.User, gimc.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+DEBUG 2020-01-09 11:27:36,276 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 9 classes define auto mapping attributes
+DEBUG 2020-01-09 11:27:36,276 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - gimc.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2020-01-09 11:27:36,283 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - gimc.Users.Dto.CreateUserDto
+DEBUG 2020-01-09 11:27:36,284 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - gimc.Users.Dto.UserDto
+DEBUG 2020-01-09 11:27:36,284 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - gimc.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2020-01-09 11:27:36,285 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - gimc.Sessions.Dto.UserLoginInfoDto
+DEBUG 2020-01-09 11:27:36,285 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - gimc.Roles.Dto.PermissionDto
+DEBUG 2020-01-09 11:27:36,285 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - gimc.Products.Dto.ProductDto
+DEBUG 2020-01-09 11:27:36,285 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - gimc.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2020-01-09 11:27:36,285 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - gimc.MultiTenancy.Dto.TenantDto
+INFO  2020-01-09 11:27:38,929 [1    ] tCore.Builder.RequestLocalizationOptions - Supported Request Localization Cultures: en,es-MX,fr,de,it,nl,pt-BR,tr,ru,ar,ja,zh-Hans
+INFO  2020-01-09 11:27:39,105 [1    ] taProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\hp\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+INFO  2020-01-09 11:27:39,170 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Product/GetProduct?Id=1  
+INFO  2020-01-09 11:27:39,171 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/  
+INFO  2020-01-09 11:27:39,245 [13   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'gimc.Web.Host.Controllers.HomeController.Index (gimc.Web.Host)'
+INFO  2020-01-09 11:27:39,533 [4    ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2020-01-09 11:27:39,787 [15   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'gimc.Products.ProductAppService.GetProduct (gimc.Application)'
+INFO  2020-01-09 11:27:40,585 [13   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller gimc.Web.Host.Controllers.HomeController (gimc.Web.Host).
+INFO  2020-01-09 11:27:40,591 [15   ] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "GetProduct", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[gimc.Products.Dto.ProductDto] GetProduct(Int32) on controller gimc.Products.ProductAppService (gimc.Application).
+INFO  2020-01-09 11:27:41,511 [13   ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2020-01-09 11:27:41,518 [13   ] c.Infrastructure.ControllerActionInvoker - Executed action gimc.Web.Host.Controllers.HomeController.Index (gimc.Web.Host) in 927.1458ms
+INFO  2020-01-09 11:27:41,519 [13   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'gimc.Web.Host.Controllers.HomeController.Index (gimc.Web.Host)'
+INFO  2020-01-09 11:27:41,525 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 2355.0067ms 0 
+ERROR 2020-01-09 11:27:41,782 [14   ] Mvc.ExceptionHandling.AbpExceptionFilter - Invalid column name 'ViewCount'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid column name 'ViewCount'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__164_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__274_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(DbContext _, Boolean result, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at Abp.EntityFrameworkCore.Repositories.EfCoreRepositoryBase`3.FirstOrDefaultAsync(TPrimaryKey id)
+   at Abp.Domain.Repositories.AbpRepositoryBase`2.GetAsync(TPrimaryKey id)
+   at Abp.Threading.InternalAsyncHelper.AwaitTaskWithPostActionAndFinallyAndGetResult[T](Task`1 actualReturnValue, Func`1 postAction, Action`1 finalAction)
+   at gimc.Products.ProductAppService.GetProduct(Int32 Id) in D:\company\5.1.0\aspnet-core\src\gimc.Application\Products\ProductAppService.cs:line 36
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+ClientConnectionId:691cc520-7192-4361-88dc-1ec213aa0da6
+Error Number:207,State:1,Class:16
+INFO  2020-01-09 11:27:41,962 [14   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-01-09 11:27:41,999 [14   ] c.Infrastructure.ControllerActionInvoker - Executed action gimc.Products.ProductAppService.GetProduct (gimc.Application) in 1407.0258ms
+INFO  2020-01-09 11:27:41,999 [14   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'gimc.Products.ProductAppService.GetProduct (gimc.Application)'
+INFO  2020-01-09 11:27:41,999 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 2829.7563ms 500 application/json; charset=utf-8
+DEBUG 2020-01-09 11:28:37,835 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2020-01-09 11:28:38,291 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2020-01-09 11:28:38,327 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: gimc.Web.Host.Startup.gimcWebHostModule, gimc.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-09 11:28:38,331 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: gimc.gimcWebCoreModule, gimc.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-09 11:28:38,332 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: gimc.gimcApplicationModule, gimc.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-09 11:28:38,332 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: gimc.gimcCoreModule, gimc.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-09 11:28:38,333 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=5.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-09 11:28:38,333 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=5.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-09 11:28:38,334 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-09 11:28:38,335 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-09 11:28:38,335 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: gimc.EntityFrameworkCore.gimcEntityFrameworkModule, gimc.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-09 11:28:38,336 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=5.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-09 11:28:38,338 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-09 11:28:38,339 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-09 11:28:38,339 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-09 11:28:38,340 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-09 11:28:38,341 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=5.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-09 11:28:38,346 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2020-01-09 11:28:38,933 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-01-09 11:28:38,933 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-01-09 11:28:38,933 [1    ] o.Configuration.LanguageManagementConfig - Converted gimc (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-01-09 11:28:38,933 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-01-09 11:28:39,822 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: gimc.EntityFrameworkCore.gimcDbContext, gimc.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-09 11:28:40,966 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2020-01-09 11:28:41,065 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2020-01-09 11:28:41,082 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2020-01-09 11:28:41,088 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: gimc
+DEBUG 2020-01-09 11:28:41,093 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2020-01-09 11:28:41,363 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2020-01-09 11:28:41,546 [1    ] , Culture=neutral, PublicKeyToken=null]] - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker`2[[gimc.MultiTenancy.Tenant, gimc.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[gimc.Authorization.Users.User, gimc.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+DEBUG 2020-01-09 11:28:41,652 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 9 classes define auto mapping attributes
+DEBUG 2020-01-09 11:28:41,652 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - gimc.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2020-01-09 11:28:41,660 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - gimc.Users.Dto.CreateUserDto
+DEBUG 2020-01-09 11:28:41,660 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - gimc.Users.Dto.UserDto
+DEBUG 2020-01-09 11:28:41,661 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - gimc.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2020-01-09 11:28:41,661 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - gimc.Sessions.Dto.UserLoginInfoDto
+DEBUG 2020-01-09 11:28:41,661 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - gimc.Roles.Dto.PermissionDto
+DEBUG 2020-01-09 11:28:41,661 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - gimc.Products.Dto.ProductDto
+DEBUG 2020-01-09 11:28:41,661 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - gimc.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2020-01-09 11:28:41,661 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - gimc.MultiTenancy.Dto.TenantDto
+INFO  2020-01-09 11:28:46,480 [1    ] tCore.Builder.RequestLocalizationOptions - Supported Request Localization Cultures: en,es-MX,fr,de,it,nl,pt-BR,tr,ru,ar,ja,zh-Hans
+INFO  2020-01-09 11:28:48,484 [1    ] taProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\hp\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+INFO  2020-01-09 11:28:48,680 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/  
+INFO  2020-01-09 11:28:48,903 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'gimc.Web.Host.Controllers.HomeController.Index (gimc.Web.Host)'
+INFO  2020-01-09 11:28:53,217 [4    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller gimc.Web.Host.Controllers.HomeController (gimc.Web.Host).
+INFO  2020-01-09 11:28:54,984 [5    ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2020-01-09 11:28:54,992 [5    ] c.Infrastructure.ControllerActionInvoker - Executed action gimc.Web.Host.Controllers.HomeController.Index (gimc.Web.Host) in 1768.8703ms
+INFO  2020-01-09 11:28:54,996 [5    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'gimc.Web.Host.Controllers.HomeController.Index (gimc.Web.Host)'
+INFO  2020-01-09 11:28:55,018 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 6341.002ms 302 
+INFO  2020-01-09 11:28:55,075 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/index.html  
+INFO  2020-01-09 11:28:55,729 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 652.3045ms 200 text/html;charset=utf-8
+INFO  2020-01-09 11:28:55,842 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/ui/abp.swagger.js  
+INFO  2020-01-09 11:28:55,846 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/ui/abp.js  
+INFO  2020-01-09 11:28:56,041 [10   ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger/ui/abp.swagger.js was not modified
+INFO  2020-01-09 11:28:56,045 [5    ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger/ui/abp.js was not modified
+INFO  2020-01-09 11:28:56,051 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 208.0947ms 304 application/javascript
+INFO  2020-01-09 11:28:56,054 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 208.5309ms 304 application/javascript
+INFO  2020-01-09 11:28:56,341 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/AntiForgery/SetCookie  
+INFO  2020-01-09 11:28:56,443 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2020-01-09 11:28:56,515 [4    ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2020-01-09 11:28:56,515 [5    ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2020-01-09 11:28:57,107 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'gimc.Web.Host.Controllers.AntiForgeryController.SetCookie (gimc.Web.Host)'
+INFO  2020-01-09 11:28:57,114 [4    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "SetCookie", controller = "AntiForgery", area = ""}. Executing controller action with signature Void SetCookie() on controller gimc.Web.Host.Controllers.AntiForgeryController (gimc.Web.Host).
+INFO  2020-01-09 11:28:57,147 [9    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-01-09 11:28:57,166 [9    ] c.Infrastructure.ControllerActionInvoker - Executed action gimc.Web.Host.Controllers.AntiForgeryController.SetCookie (gimc.Web.Host) in 48.461ms
+INFO  2020-01-09 11:28:57,168 [9    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'gimc.Web.Host.Controllers.AntiForgeryController.SetCookie (gimc.Web.Host)'
+INFO  2020-01-09 11:28:57,171 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 830.3134ms 200 application/json; charset=utf-8
+INFO  2020-01-09 11:28:57,485 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 1036.4271ms 200 application/json;charset=utf-8
+INFO  2020-01-09 11:29:15,846 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Product/GetProduct?Id=1  
+INFO  2020-01-09 11:29:15,853 [5    ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2020-01-09 11:29:15,868 [5    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'gimc.Products.ProductAppService.GetProduct (gimc.Application)'
+INFO  2020-01-09 11:29:15,895 [5    ] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "GetProduct", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[gimc.Products.Dto.ProductDto] GetProduct(Int32) on controller gimc.Products.ProductAppService (gimc.Application).
+ERROR 2020-01-09 11:29:17,570 [5    ] Mvc.ExceptionHandling.AbpExceptionFilter - Invalid column name 'ViewCount'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid column name 'ViewCount'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__164_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__274_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(DbContext _, Boolean result, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at Abp.EntityFrameworkCore.Repositories.EfCoreRepositoryBase`3.FirstOrDefaultAsync(TPrimaryKey id)
+   at Abp.Domain.Repositories.AbpRepositoryBase`2.GetAsync(TPrimaryKey id)
+   at Abp.Threading.InternalAsyncHelper.AwaitTaskWithPostActionAndFinallyAndGetResult[T](Task`1 actualReturnValue, Func`1 postAction, Action`1 finalAction)
+   at gimc.Products.ProductAppService.GetProduct(Int32 Id) in D:\company\5.1.0\aspnet-core\src\gimc.Application\Products\ProductAppService.cs:line 36
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+ClientConnectionId:35c2ec42-f858-4cf3-9b88-a8cc73180698
+Error Number:207,State:1,Class:16
+INFO  2020-01-09 11:29:17,907 [5    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-01-09 11:29:17,913 [5    ] c.Infrastructure.ControllerActionInvoker - Executed action gimc.Products.ProductAppService.GetProduct (gimc.Application) in 2015.8705ms
+INFO  2020-01-09 11:29:17,916 [5    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'gimc.Products.ProductAppService.GetProduct (gimc.Application)'
+INFO  2020-01-09 11:29:17,920 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 2082.1291ms 500 application/json; charset=utf-8
+INFO  2020-01-09 11:29:38,742 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Product/GetProduct?Id=1  
+INFO  2020-01-09 11:29:38,752 [11   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2020-01-09 11:29:38,759 [11   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'gimc.Products.ProductAppService.GetProduct (gimc.Application)'
+INFO  2020-01-09 11:29:38,768 [11   ] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "GetProduct", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[gimc.Products.Dto.ProductDto] GetProduct(Int32) on controller gimc.Products.ProductAppService (gimc.Application).
+ERROR 2020-01-09 11:29:50,919 [11   ] Mvc.ExceptionHandling.AbpExceptionFilter - Invalid column name 'ViewCount'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid column name 'ViewCount'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__164_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__274_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(DbContext _, Boolean result, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at Abp.EntityFrameworkCore.Repositories.EfCoreRepositoryBase`3.FirstOrDefaultAsync(TPrimaryKey id)
+   at Abp.Domain.Repositories.AbpRepositoryBase`2.GetAsync(TPrimaryKey id)
+   at Abp.Threading.InternalAsyncHelper.AwaitTaskWithPostActionAndFinallyAndGetResult[T](Task`1 actualReturnValue, Func`1 postAction, Action`1 finalAction)
+   at gimc.Products.ProductAppService.GetProduct(Int32 Id) in D:\company\5.1.0\aspnet-core\src\gimc.Application\Products\ProductAppService.cs:line 36
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+ClientConnectionId:5c2d2ef4-915b-4b2a-b6c1-676b11772912
+Error Number:207,State:1,Class:16
+INFO  2020-01-09 11:29:50,947 [11   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-01-09 11:29:50,954 [11   ] c.Infrastructure.ControllerActionInvoker - Executed action gimc.Products.ProductAppService.GetProduct (gimc.Application) in 12179.0428ms
+INFO  2020-01-09 11:29:50,957 [11   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'gimc.Products.ProductAppService.GetProduct (gimc.Application)'
+INFO  2020-01-09 11:29:50,962 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 12218.754ms 500 application/json; charset=utf-8
+DEBUG 2020-01-09 11:32:23,990 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2020-01-09 11:32:24,030 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2020-01-09 11:32:24,067 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: gimc.Web.Host.Startup.gimcWebHostModule, gimc.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-09 11:32:24,070 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: gimc.gimcWebCoreModule, gimc.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-09 11:32:24,071 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: gimc.gimcApplicationModule, gimc.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-09 11:32:24,071 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: gimc.gimcCoreModule, gimc.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-09 11:32:24,071 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=5.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-09 11:32:24,072 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=5.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-09 11:32:24,072 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-09 11:32:24,073 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-09 11:32:24,073 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: gimc.EntityFrameworkCore.gimcEntityFrameworkModule, gimc.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-09 11:32:24,074 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=5.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-09 11:32:24,074 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-09 11:32:24,074 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-09 11:32:24,075 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-09 11:32:24,075 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-09 11:32:24,089 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=5.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-09 11:32:24,097 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2020-01-09 11:32:24,166 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-01-09 11:32:24,166 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-01-09 11:32:24,166 [1    ] o.Configuration.LanguageManagementConfig - Converted gimc (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-01-09 11:32:24,166 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-01-09 11:32:24,669 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: gimc.EntityFrameworkCore.gimcDbContext, gimc.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-09 11:32:25,383 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2020-01-09 11:32:25,448 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2020-01-09 11:32:25,468 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2020-01-09 11:32:25,478 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: gimc
+DEBUG 2020-01-09 11:32:25,488 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2020-01-09 11:32:25,613 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2020-01-09 11:32:25,672 [1    ] , Culture=neutral, PublicKeyToken=null]] - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker`2[[gimc.MultiTenancy.Tenant, gimc.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[gimc.Authorization.Users.User, gimc.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+DEBUG 2020-01-09 11:32:25,740 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 9 classes define auto mapping attributes
+DEBUG 2020-01-09 11:32:25,740 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - gimc.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2020-01-09 11:32:25,750 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - gimc.Users.Dto.CreateUserDto
+DEBUG 2020-01-09 11:32:25,751 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - gimc.Users.Dto.UserDto
+DEBUG 2020-01-09 11:32:25,751 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - gimc.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2020-01-09 11:32:25,751 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - gimc.Sessions.Dto.UserLoginInfoDto
+DEBUG 2020-01-09 11:32:25,752 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - gimc.Roles.Dto.PermissionDto
+DEBUG 2020-01-09 11:32:25,752 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - gimc.Products.Dto.ProductDto
+DEBUG 2020-01-09 11:32:25,752 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - gimc.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2020-01-09 11:32:25,752 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - gimc.MultiTenancy.Dto.TenantDto
+INFO  2020-01-09 11:32:28,699 [1    ] tCore.Builder.RequestLocalizationOptions - Supported Request Localization Cultures: en,es-MX,fr,de,it,nl,pt-BR,tr,ru,ar,ja,zh-Hans
+INFO  2020-01-09 11:32:28,870 [1    ] taProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\hp\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+INFO  2020-01-09 11:32:28,916 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/  
+INFO  2020-01-09 11:32:28,985 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'gimc.Web.Host.Controllers.HomeController.Index (gimc.Web.Host)'
+INFO  2020-01-09 11:32:30,150 [4    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller gimc.Web.Host.Controllers.HomeController (gimc.Web.Host).
+INFO  2020-01-09 11:32:30,778 [11   ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2020-01-09 11:32:30,783 [11   ] c.Infrastructure.ControllerActionInvoker - Executed action gimc.Web.Host.Controllers.HomeController.Index (gimc.Web.Host) in 629.3913ms
+INFO  2020-01-09 11:32:30,784 [11   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'gimc.Web.Host.Controllers.HomeController.Index (gimc.Web.Host)'
+INFO  2020-01-09 11:32:30,800 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 1884.0357ms 302 
+INFO  2020-01-09 11:32:30,801 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/index.html  
+INFO  2020-01-09 11:32:31,021 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 219.4645ms 200 text/html;charset=utf-8
+INFO  2020-01-09 11:32:31,257 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/AntiForgery/SetCookie  
+INFO  2020-01-09 11:32:31,333 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2020-01-09 11:32:31,376 [10   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2020-01-09 11:32:31,376 [4    ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2020-01-09 11:32:31,452 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'gimc.Web.Host.Controllers.AntiForgeryController.SetCookie (gimc.Web.Host)'
+INFO  2020-01-09 11:32:31,468 [4    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "SetCookie", controller = "AntiForgery", area = ""}. Executing controller action with signature Void SetCookie() on controller gimc.Web.Host.Controllers.AntiForgeryController (gimc.Web.Host).
+INFO  2020-01-09 11:32:31,499 [10   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-01-09 11:32:31,515 [10   ] c.Infrastructure.ControllerActionInvoker - Executed action gimc.Web.Host.Controllers.AntiForgeryController.SetCookie (gimc.Web.Host) in 46.2291ms
+INFO  2020-01-09 11:32:31,515 [10   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'gimc.Web.Host.Controllers.AntiForgeryController.SetCookie (gimc.Web.Host)'
+INFO  2020-01-09 11:32:31,515 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 258.1339ms 200 application/json; charset=utf-8
+INFO  2020-01-09 11:32:31,673 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 339.8481ms 200 application/json;charset=utf-8
+INFO  2020-01-09 11:32:48,624 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Product/GetProduct?Id=1  
+INFO  2020-01-09 11:32:48,627 [10   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2020-01-09 11:32:48,630 [10   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'gimc.Products.ProductAppService.GetProduct (gimc.Application)'
+INFO  2020-01-09 11:32:48,656 [10   ] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "GetProduct", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[gimc.Products.Dto.ProductDto] GetProduct(Int32) on controller gimc.Products.ProductAppService (gimc.Application).
+INFO  2020-01-09 11:32:49,135 [9    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-01-09 11:32:49,140 [9    ] c.Infrastructure.ControllerActionInvoker - Executed action gimc.Products.ProductAppService.GetProduct (gimc.Application) in 483.7703ms
+INFO  2020-01-09 11:32:49,140 [9    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'gimc.Products.ProductAppService.GetProduct (gimc.Application)'
+INFO  2020-01-09 11:32:49,140 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 516.509ms 200 application/json; charset=utf-8
+INFO  2020-01-09 11:32:56,037 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Product/GetProduct?Id=1  
+INFO  2020-01-09 11:32:56,046 [9    ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2020-01-09 11:32:56,048 [9    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'gimc.Products.ProductAppService.GetProduct (gimc.Application)'
+INFO  2020-01-09 11:32:56,072 [9    ] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "GetProduct", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[gimc.Products.Dto.ProductDto] GetProduct(Int32) on controller gimc.Products.ProductAppService (gimc.Application).
+INFO  2020-01-09 11:32:56,118 [7    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-01-09 11:32:56,119 [7    ] c.Infrastructure.ControllerActionInvoker - Executed action gimc.Products.ProductAppService.GetProduct (gimc.Application) in 46.0462ms
+INFO  2020-01-09 11:32:56,119 [7    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'gimc.Products.ProductAppService.GetProduct (gimc.Application)'
+INFO  2020-01-09 11:32:56,119 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 82.4717ms 200 application/json; charset=utf-8

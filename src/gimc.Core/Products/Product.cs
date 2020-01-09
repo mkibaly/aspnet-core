@@ -12,6 +12,7 @@ namespace gimc.Models
         public string Description { get; set; }
         public double Price { get; set; }
         public string ImageUrl { get; set; }
+        public int ViewCount { get; set; }
         public ICollection<ProductFlag> DietaryFlags { get; set; }
 
     }

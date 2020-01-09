@@ -36,6 +36,10 @@ namespace gimc.Products
             var product = await
                 _ProductRepository.GetAsync(Id);
 
+            product.ViewCount++;
+
+            CurrentUnitOfWork.SaveChanges();
+
             return ObjectMapper.Map<ProductDto>(product);
         }
 
@@ -45,7 +49,36 @@ namespace gimc.Products
             var product = await
                 _ProductRepository.InsertAsync(inputProduct);
 
+            CurrentUnitOfWork.SaveChanges();
+
             return ObjectMapper.Map<ProductDto>(product);
+        }
+
+        public async Task<ProductDto> UpdateProduct(ProductDto productDto)
+        {
+            var product = await
+              _ProductRepository.GetAsync(productDto.Id);
+
+            product.Title = productDto.Title;
+            product.Description= productDto.Description;
+            product.ImageUrl= productDto.ImageUrl;
+            product.Price= productDto.Price;
+            product.VendorUID= productDto.VendorUID;
+            // privent editing view count
+            // product.ViewCount = productDto.ViewCount;
+            
+            CurrentUnitOfWork.SaveChanges();
+
+            return ObjectMapper.Map<ProductDto>(product);
+
+        }
+
+        public async void DeleteProduct(int Id)
+        {
+            await _ProductRepository.DeleteAsync(Id);
+
+            CurrentUnitOfWork.SaveChanges();
+
         }
     }
 }

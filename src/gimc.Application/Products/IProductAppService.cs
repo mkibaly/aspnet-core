@@ -8,6 +8,8 @@ namespace gimc.Products
     public interface IProductAppService : IApplicationService
     {
         Task<ProductDto> CreateProduct(ProductDto productDto);
+        Task<ProductDto> UpdateProduct(ProductDto productDto);
+        void DeleteProduct(int Id); 
         Task<ProductDto> GetProduct(int Id);
         Task<ListResultDto<ProductDto>> GetAllProducts();
         
